@@ -2,3 +2,7 @@ file '/myfile' do
 content 'Welcome to Technical Guftgu'
 action :create
 end
+
+****My 2nd code which will create a user and file in Rbuby****
+user "Prashant Singla"
+file "/Prashantfile"
