@@ -1,8 +1,23 @@
+#***Code to create a file with content***
 file '/myfile' do
 content 'Welcome to Technical Guftgu'
 action :create
 end
 
-****My 2nd code which will create a user and file in Rbuby****
+#****My 2nd code which will create a user and file in Ruby****
 user "Prashant Singla"
 file "/Prashantfile"
+
+
+#*****Code to create the Apache server*****
+package 'httpd' do 
+action :install 
+end 
+
+file '/var/www/html/index.html' do 
+content 'Welcome to Technical Guftgu' 
+action :create 
+end 
+service 'httpd' do 
+action [:enable, :start] 
+end
