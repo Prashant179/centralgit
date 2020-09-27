@@ -1,1 +1,1 @@
-Thanch will have that file if we create in Branch1. Yes, you're right. it should not be.
+This is a test code to check for DelhigitBranch1file to experiment if Master Branch will have that file if we create in Branch1. Yes, you are right. it will be visible until add and commit will not be done from any of the branch. Just after the add commit it will be visible only in committed branch. Also, it can be verified via git log cmd commit ID count as we will be showing in coming commands.
